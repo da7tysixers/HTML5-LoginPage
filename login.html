@@ -4,37 +4,43 @@
 
 <head>
     <!-- CSS only -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="description" content="Per-Scholas">
     <meta name="keywords" content="HTML,CSS, JavaScript">
     <meta name="author" content="Emmanuel Orubele">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login PageS | Per Scholas</title>
-
-
+    <title>Login Page | Per Scholas</title>
 </head>
+<!-- body begins here -->
 
-<body>
+<body class="login-body">
+    <!-- header begins here -->
     <header>
         <nav>
             <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">About</a></li>
-                <li><a href="">Login Here</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="login.html">Login Here</a></li>
             </ul>
-
         </nav>
 
     </header>
-    <div>
-        <h2>About Us</h2>
-        <ul>
-            <li>Company</li>
-            <li>Partners</li>
-            <li>Our People</li>
-        </ul>
+    <div class="login-box">
+        <h1>Login Page</h1>
+        <div class="textbox">
+            <p>Username:</p>
+            <input type="text" placeholder="Enter Your Email" name="value">
+        </div>
+        <div class="textbox">
+            <p>Password:</p>
+            <input type="text" placeholder="Enter Your Password" name="value">
+        </div>
+        <input class="btn" type="button" name="" value="Login"> <br />
+        <a href="register.html">Register</a>
     </div>
+
+
     <div>
         <footer>
             <div>
@@ -47,8 +53,6 @@
             </div>
         </footer>
     </div>
-
-
 </body>
 
 </html>
