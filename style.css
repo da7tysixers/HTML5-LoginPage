@@ -2,12 +2,12 @@ table-format {
     border-color: red;
 }
 
-table th {
+.table-header {
     text-align: center;
     border: 2px solid red;
 }
 
-table td {
+.table-format {
     border: 2px solid red;
     padding: 4px 8px;
     font-weight: 300;
